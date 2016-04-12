@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64.6 54.8" enable-background="new 0 0 64.6 54.8" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="Isolation_Mode">
+	<g>
+		<circle fill="none" stroke="#FCEE23" stroke-width="1.2706" stroke-miterlimit="10" cx="32.6" cy="27.4" r="26.2"/>
+		<g>
+			
+				<ellipse transform="matrix(0.5263 -0.8503 0.8503 0.5263 -5.3722 30.065)" fill="#8EC641" cx="24.3" cy="19.9" rx="9.3" ry="13.5"/>
+			<polygon fill="#8EC641" points="33.1,25.3 48.9,24.1 39,40 			"/>
+			<polygon fill="#8EC641" points="15.8,14.7 9.8,0 0,15.9 			"/>
+		</g>
+		<g>
+			
+				<ellipse transform="matrix(0.9465 -0.3228 0.3228 0.9465 -10.3315 14.8778)" fill="#EC2227" cx="39.7" cy="38.6" rx="13.5" ry="9.3"/>
+			<polygon fill="#EC2227" points="49.5,35.3 58.6,22.3 64.6,40 			"/>
+			<polygon fill="#EC2227" points="30.3,41.9 15.2,37.2 21.2,54.8 			"/>
+		</g>
+	</g>
+</g>
+</svg>

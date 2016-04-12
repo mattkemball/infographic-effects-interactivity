@@ -1,0 +1,242 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 5rem;
+  color: #fcee23;
+  background-color: #a2784e;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-top: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #fbb041;
+  background-color: #020202;
+  padding: 1rem;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #fbb041;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+
+}
+
+.open {
+  padding-left: 1rem;
+}
+
+.drinks {
+  margin: 10rem;
+  min-width: 70%;
+  max-width: 80%;
+}
+
+.leaves {
+  padding: 1rem;
+}
+
+.drinksback {
+  background-color: #764e2a;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.drinkstype {
+  padding-left: 1rem;
+}
+
+.svg {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 1rem;
+  background-color: #764e2a;
+  border-radius: 10px;
+}
+
+.popular div {
+  opacity: 1;
+}
+
+.popular-image-animate div {
+  animation: scale 500ms linear;
+}
+
+.popular div:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.popular div:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.popular div:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.popular div:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.popular div:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.popular div:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+.popular div:nth-child(8) {
+  animation-delay: 4s;
+}
+
+@keyframes scale {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  33%{
+    transform: scale(1.1);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.notpopular  div {
+  opacity: 0;
+  transition: all 250ms ease-in;
+}
+
+.notpopular-image-animate  div {
+  opacity: 1;
+  animation: scale 500ms linear;
+}
+
+.notpopular-image-animate div {
+  animation: scale 500ms linear;
+}
+
+.notpopular div:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.notpopular div:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.notpopular div:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.notpopular div:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.notpopular div:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.notpopular div:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+.notpopular div:nth-child(8) {
+  animation-delay: 4s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  33%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 20em) {
+
+  svg:hover {
+    transform: scale(1);
+  }
+
+  .pic {
+    padding: 1rem;
+    margin: 3rem;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .svg:hover {
+    transform: scale(1.5);
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .svg:hover {
+    transform: scale(1.5);
+  }
+}
