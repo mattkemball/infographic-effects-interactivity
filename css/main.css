@@ -215,6 +215,15 @@ p {
   }
 }
 
+.sugarfacts {
+  opacity: 0;
+  transition: all 800ms ease-in;
+}
+
+.sugarfacts-image-animate {
+  opacity: 1;
+}
+
 @media only screen and (min-width: 20em) {
 
   svg:hover {
