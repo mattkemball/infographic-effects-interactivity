@@ -24,4 +24,4 @@ $class3.waypoint(function (direction) {
   } else {
     $class3.removeClass('sugarfacts-image-animate');
   }
-}, {offset: '40%'});
+}, {offset: '50%'});
